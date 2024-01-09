@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 233, 233);
+}
+
+.navbar ul li a:hover {
+    background-color: dodgerblue;
+    border-radius: 5px 5px;
+}
+
+.active {
+    background-color: dodgerblue;
+    border-radius: 5px 5px;
+}
+.item img{
+    border: 10px groove white;
+    /* border-radius: 10px; */
+    transition: transform .2s;
+}
+
+.item img:hover {
+    -ms-transform: scale(1.1); /*browser*/
+    -webkit-transform: scale(1.1); /*browser*/
+    transform: scale(1.1); 
+}
+

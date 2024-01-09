@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.5)),
+        url('Images/background1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar ul li a:hover {
+    background-color: dodgerblue;
+    border-radius: 5px 5px;
+}
+
+.box {
+    height: 85vh;
+    text-align: center;
+    padding-top: 40vh;
+}
+h1 {
+    font-family: 'Courgette', cursive;;
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(255, 84, 3), rgb(255, 202, 3), rgb(255, 243, 35));
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+.typing{
+    margin-left: 10px;
+}
+.typing::after{
+    content: "";
+    border: 2px solid white;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
